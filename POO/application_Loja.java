@@ -21,8 +21,7 @@ public class application_Loja {
 			int response = scan.nextInt();
 			
 			if(response == 1) {
-				double value = produ.totalValueInStock();
-				System.out.printf("Product data: %s, $ %.2f, %d units, Total: %.2f%n",produ.name, produ.price, produ.quantity, value);
+				System.out.println(produ);
 			}
 			else if(response == 2){
 				System.out.println("Enter the number of products to be added in stock: ");

@@ -15,7 +15,7 @@ public class conta_peca {
 			Valor_Uni = scan.nextDouble();
 			double Total_Pagar = Numero_Peca * Valor_Uni;
 			System.out.printf("Valor a pagar: %.2f%n", Total_Pagar);
-			
+			scan.close();
 			
 			
 		

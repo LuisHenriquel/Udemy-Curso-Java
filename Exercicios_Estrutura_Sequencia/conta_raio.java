@@ -11,7 +11,7 @@ public class conta_raio {
 		double raio = scan.nextDouble();
 		double resultado = (tt * (raio * 2));
 		System.out.printf("A= %.4f%n",resultado);
-
+		scan.close();
 	}
 
 }

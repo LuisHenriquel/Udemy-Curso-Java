@@ -20,7 +20,9 @@ public class conta_matamaticas {
 		double Resultado_Quadrado = B * B;
 		double Resultado_Retangulo = A * B;
 		
+		scan.close();
 		System.out.printf("Triangulo: %.3f%nCirculo:%.3f%nTrapezio: %.3f%nQuadrado: %.3f%nRetangulo: %.3f%n ", Resultado_Triangulo, Resultado_Circulo, Resultado_Trapezio, Resultado_Quadrado, Resultado_Retangulo );
+		
 	}
 	
 }
